@@ -32,5 +32,23 @@ public class DSA {
         bst.insert(12);
         bst.inorder();
         bst.search(bst.root,19);
+        bst.delete(12);
+        bst.inorder();
+        bst.delete(13);
+        bst.inorder();
+        bst.insert(25);
+        bst.inorder();
+        bst.delete(25);
+        bst.inorder();
+        bst.insert(23);
+        bst.inorder();
+        bst.insert(89);
+        bst.inorder();
+        bst.insert(99);
+        bst.inorder();
+        bst.delete(13);
+        bst.inorder();
+        bst.delete(56);
+        bst.inorder();
     }
 }
